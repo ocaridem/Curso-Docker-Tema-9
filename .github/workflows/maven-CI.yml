@@ -3,6 +3,7 @@ name: Maven CI/CD
 on:
   push:
     branches: [ Development ]
+  workflow_dispatch:  #permite ejecutar manualmente desde Github
 
 jobs:
   test_and_build:
